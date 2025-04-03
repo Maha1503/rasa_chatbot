@@ -1,0 +1,83 @@
+version: "3.1"
+
+stories:
+  - story: ask_establishment_story
+    steps:
+      - intent: ask_establishment
+      - action: utter_ask_establishment
+
+  - story: ask_mission_statement_story
+    steps:
+      - intent: ask_mission_statement
+      - action: utter_ask_mission_statement
+
+  - story: ask_campuses_story
+    steps:
+      - intent: ask_campuses
+      - action: utter_ask_campuses
+
+  - story: ask_contact_details_story
+    steps:
+      - intent: ask_contact_details
+      - action: utter_ask_contact_details
+
+  - story: ask_chancellor_story
+    steps:
+      - intent: ask_chancellor
+      - action: utter_ask_chancellor
+
+  - story: ask_rankings_story
+    steps:
+      - intent: ask_rankings
+      - action: utter_ask_rankings
+
+  - story: ask_virtual_tours_story
+    steps:
+      - intent: ask_virtual_tours
+      - action: utter_ask_virtual_tours
+
+  - story: ask_ug_courses_story
+    steps:
+      - intent: ask_ug_courses
+      - action: utter_ask_ug_courses
+
+  - story: ask_pg_courses_story
+    steps:
+      - intent: ask_pg_courses
+      - action: utter_ask_pg_courses
+
+  - story: ask_fellowship_courses_story
+    steps:
+      - intent: ask_fellowship_courses
+      - action: utter_ask_fellowship_courses
+
+  - story: ask_sports_facilities_story
+    steps:
+      - intent: ask_sports_facilities
+      - action: utter_ask_sports_facilities
+
+  - story: ask_sports_timing_story
+    steps:
+      - intent: ask_sports_timing
+      - action: utter_ask_sports_timing
+
+  - story: ask_admission_qualifications_story
+    steps:
+      - intent: ask_admission_qualifications
+      - action: utter_ask_admission_qualifications
+
+  - story: ask_admission_fees_story
+    steps:
+      - intent: ask_admission_fees
+      - action: utter_ask_admission_fees
+
+  - story: greeting_story
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: goodbye_story
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+

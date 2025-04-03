@@ -1,0 +1,216 @@
+version: "3.1"
+
+nlu:
+  # University Information Queries
+  - intent: ask_establishment
+    examples: |
+      - When was the university established?
+      - What year was the university founded?
+      - In which year did the university start?
+      - Tell me about the university's founding
+      - When was this institution created?
+      - University establishment date
+      - Can you share the founding year?
+      - How old is this university?
+      - When did the college start?
+
+  - intent: ask_mission_statement
+    examples: |
+      - What is the university's motto?
+      - Can you tell me the university's mission statement?
+      - What are the core values of the university?
+      - Describe the university's educational philosophy
+      - What drives this university's academic approach?
+      - Tell me about the institution's goals
+      - What is the primary mission of this university?
+      - What is the vision and mission of the college?
+
+  - intent: ask_campuses
+    examples: |
+      - How many campuses does the university have?
+      - Where are the university's campuses located?
+      - Can you list the university's campus locations?
+      - In which cities are the university's campuses?
+      - Tell me about the different campus sites
+      - Where can I find the university's campuses?
+      - Are there multiple campus locations?
+      - What are the available campuses?
+
+  - intent: ask_contact_details
+    examples: |
+      - What are the university's key contact details?
+      - Can I get the university's email and phone number?
+      - How do I contact the university administration?
+      - What is the university's official contact information?
+      - Provide me with contact details
+      - How can I reach out to the university?
+      - What's the best way to contact the university?
+      - How can I reach admissions?
+
+  - intent: ask_chancellor
+    examples: |
+      - Who is the current president of the university?
+      - Can you tell me the name of the chancellor?
+      - Who leads the university?
+      - Tell me about the current university leadership
+      - Who is in charge of the university?
+      - What is the name of the university's president?
+      - Can you introduce me to the university's top administrator?
+      - Who is the university head?
+      - Who is the principal?
+
+  - intent: ask_rankings
+    examples: |
+      - What rankings does the university hold?
+      - Is the university accredited?
+      - How is the university ranked globally?
+      - What are the university's academic achievements?
+      - Tell me about the university's reputation
+      - What makes this university stand out?
+      - Are there any notable rankings for this institution?
+      - Is the college NAAC accredited?
+
+  - intent: ask_virtual_tours
+    examples: |
+      - Are there virtual tours for prospective students?
+      - Does the university offer online resources to explore the campus?
+      - How can I virtually visit the university?
+      - Are online campus tours available?
+      - Can I see the campus facilities online?
+      - What digital resources are available for potential students?
+      - How can I explore the university remotely?
+      - Is there a 360-degree campus tour?
+
+  # Courses Queries
+  - intent: ask_ug_courses
+    examples: |
+      - What undergraduate courses do you offer?
+      - List all UG programs at the university.
+      - What bachelor's degree programs are available?
+      - Which subjects can I study for UG?
+      - Tell me about undergraduate courses.
+      - What are the different UG streams?
+      - Do you offer B.Tech programs?
+      - Can I take BBA here?
+
+  - intent: ask_pg_courses
+    examples: |
+      - What postgraduate courses do you offer?
+      - What master's programs are available?
+      - Which PG programs does the university have?
+      - Tell me about the available postgraduate degrees.
+      - What are the PG options for students?
+      - Is an MBA available?
+      - Do you have M.Sc. programs?
+
+  - intent: ask_fellowship_courses
+    examples: |
+      - What fellowship courses does the university offer?
+      - Can you tell me about research and policy courses?
+      - Are there any specialized research programs available?
+      - What advanced courses do you offer?
+      - Tell me about the university's fellowship programs.
+
+  - intent: ask_school_courses
+    examples: |
+      - What courses are available in the School of Law?
+      - Can you list the programs in the School of Management?
+      - What degrees does the School of Science offer?
+      - Tell me about courses in the School of Engineering.
+      - What courses are available in the School of Mathematics and Natural Sciences?
+      - Does the School of Law offer LLB programs?
+
+  # Sports & Recreational Queries
+  - intent: ask_sports_facilities
+    examples: |
+      - What sports facilities are available on campus?
+      - Does the campus have a sports complex?
+      - What recreational activities does the university offer?
+      - Tell me about the university's sports facilities
+      - Are there any gyms or fitness centers?
+      - What sports can students participate in?
+      - Do you have indoor and outdoor sports?
+
+  - intent: ask_sports_timing
+    examples: |
+      - What are the timings for using sports facilities?
+      - When is the sports complex open?
+      - What are the gym hours?
+      - Timing of sports activities?
+      - When is the gym accessible?
+      - What time does the sports arena open?
+      - Can I use the sports facilities in the evening?
+
+  # Admissions Queries
+  - intent: ask_admission_qualifications
+    examples: |
+      - Are there specific qualifications for admission?
+      - What are the eligibility criteria?
+      - What is required for university admission?
+      - What marks are needed for admission?
+
+  - intent: ask_admission_fees
+    examples: |
+      - What is the tuition fee for different courses?
+      - How much does the university charge for admission?
+      - What are the annual fees for MCA, BCA, and BE?
+      - What is the cost of studying here?
+
+  # Greeting Intent
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Good morning
+      - Good afternoon
+      - Greetings
+      - Welcome
+      - Hi there
+      - Namaste
+      - Hey UniBot
+
+  # Goodbye Intent  
+  - intent: goodbye
+    examples: |
+      - Bye
+      - Goodbye
+      - See you later
+      - Catch you later
+      - Talk to you soon
+      - Farewell
+      - I'm done, thanks
+      - That's all for now
+
+  # Affirmation Intent
+  - intent: affirm
+    examples: |
+      - yes
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - sure
+
+  # Denial Intent  
+  - intent: deny
+    examples: |
+      - no
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not interested
+
+  # Fallback Intent
+  - intent: fallback
+    examples: |
+      - What?
+      - I don't understand
+      - Can you repeat that?
+      - Huh?
+      - Say that again
+      - Not sure what you're saying
+      - What do you mean?
+      - I didn't get that
+      - Sorry, can you clarify?

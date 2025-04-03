@@ -1,0 +1,21 @@
+version: "3.1"
+
+language: en
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+- name: EntitySynonymMapper
+- name: ResponseSelector
+- name: FallbackClassifier
+  threshold: 0.4
+
+policies:
+- name: MemoizationPolicy
+- name: RulePolicy
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+
+assistant_id: 20250327-100607-ornery-hand

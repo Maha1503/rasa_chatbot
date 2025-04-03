@@ -1,0 +1,88 @@
+version: "3.1"
+
+intents:
+  - ask_establishment
+  - ask_mission_statement
+  - ask_campuses
+  - ask_contact_details
+  - ask_chancellor
+  - ask_rankings
+  - ask_virtual_tours
+  - ask_ug_courses
+  - ask_pg_courses
+  - ask_fellowship_courses
+  - ask_school_courses
+  - ask_sports_facilities
+  - ask_sports_timing
+  - ask_admission_qualifications
+  - ask_admission_fees
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - fallback
+
+responses:
+  utter_ask_establishment:
+    - text: "Established in 2022 through a State Legislature Act, Chanakya University is a beacon of excellence, committed to addressing developmental challenges with innovative solutions."
+  
+  utter_ask_mission_statement:
+    - text: "Our mission is to expand knowledge through world-class scholarship and impactful research, preparing students with abundant wisdom (jñāna), indomitable will (ichhā), and meaningful action (kriyā) that honor both Indian traditions and universal values."
+  
+  utter_ask_campuses:
+    - text: "The university has campus in Devanahalli."
+
+  utter_ask_contact_details:
+    - text: "You can contact the university at Email: admissions@chanakyauniversity.edu.in or Phone: 08031233133, 8550855092."
+
+  utter_ask_chancellor:
+    - text: "The current chancellor of the university is Padma Shri M. K. Sridhar."
+
+  utter_ask_rankings:
+    - text: "The university is ranked among the top institutions and is accredited by [ACCREDITATION BODY]."
+
+  utter_ask_virtual_tours:
+    - text: "Yes, you can explore the university virtually through our website's 360-degree campus tour."
+
+  utter_ask_ug_courses:
+    - text: "Our UG courses include B.Tech, BBA, BA, B.Sc, and many more. Visit our website for details: https://chanakyauniversity.edu.in."
+
+  utter_ask_pg_courses:
+    - text: "The PG courses offered include MBA, M.Sc, M.Tech, and others. Visit our website for details: https://chanakyauniversity.edu.in."
+
+  utter_ask_fellowship_courses:
+    - text: "The university offers specialized fellowship programs in research and advanced studies. Visit our website for details: https://chanakyauniversity.edu.in."
+
+  utter_ask_school_courses:
+    - text: "Each school offers unique programs. For example, the School of Law offers LLB programs."
+
+  utter_ask_sports_facilities:
+    - text: "The university has a sports complex, gym, and various recreational facilities for students."
+
+  utter_ask_sports_timing:
+    - text: "The sports complex is open from 6:30 onwards. Check with the administration for more details."
+
+  utter_ask_admission_qualifications:
+    - text: "Admission criteria vary by program. Generally, students need a minimum percentage in their previous exams."
+
+  utter_ask_admission_fees:
+    - text: "The tuition fees depend on the course. Please check our admissions page for detailed fee structures."
+
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_affirm:
+    - text: "Great! Let me know if you need anything else."
+
+  utter_deny:
+    - text: "No problem! Let me know if you change your mind."
+
+  utter_fallback:
+    - text: "I'm sorry, I didn't understand that. Can you rephrase your question?"
+
+actions:
+  - action_custom_response
+

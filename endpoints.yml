@@ -1,5 +1,5 @@
 action_endpoint:
-  url: "rasachatbot-production-a031.up.railway.app"
+  url: "rasachatbot-production-a031.up.railway.app/webhook"
 
 cors:
   enabled: true

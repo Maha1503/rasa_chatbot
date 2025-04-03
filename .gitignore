@@ -1,0 +1,35 @@
+# Ignore virtual environment
+rasa_env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and database files
+logs/
+*.log
+*.sqlite3
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore large dependencies and compiled files
+*.so
+*.a
+*.o
+*.dll
+*.exe
+*.out
+*.bin
+
+# Ignore Node.js dependencies (for frontend)
+node_modules/
+dist/
+rasa_env/

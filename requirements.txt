@@ -1,24 +1,23 @@
-# Rasa Core and SDK
+# Rasa Core & SDK
 rasa==3.5.10
 rasa-sdk==3.5.1
 
-# Web Server & API Handling
+# Web Server
 flask==3.0.0
 gunicorn==21.2.0
-requests==2.31.0
 
-# Machine Learning & NLP
+# NLP & ML Dependencies
 numpy==1.24.3
 scikit-learn==1.2.2
 spacy==3.5.0
 tensorflow-cpu==2.11.0
 
 # Database Support (Optional)
-pymongo==4.5.0  # For MongoDB
-psycopg2-binary==2.9.9  # For PostgreSQL
-sqlalchemy==2.0.28  # If using SQL storage
+pymongo==4.5.0
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.28
 
-# Other Dependencies
+# Other Required Libraries
 tqdm==4.66.1
 pydantic==1.10.13
 python-dotenv==1.0.1

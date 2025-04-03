@@ -1,5 +1,5 @@
 action_endpoint:
-  url: "http://0.0.0.0:5005/"
+  url: "rasachatbot-production-a031.up.railway.app"
 
 cors:
   enabled: true
